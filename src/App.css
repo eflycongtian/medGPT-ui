@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+.gen-content{
+	padding: 0 0 0 20px;
+}
+
+.gen-content table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.gen-content table th,
+.gen-content table td {
+	padding: 8px;
+	text-align: center;
+	min-width: 50px;
+}
+
+.gen-content table th {
+	background-color: #f1f1f1;
+	font-weight: bold;
+	border: 1px solid #ddd;
+}
+
+.gen-content table td {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.gen-content table tr:nth-child(even) td {
+	background-color: #f9f9f9;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
